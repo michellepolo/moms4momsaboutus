@@ -10,11 +10,10 @@ p {
   size: 64px;
   font-weight: 300;
   text-align: center;
-  padding: 5%;
-}
+  }
 .momheadertext{
   float: right;
-  margin-top: 20%;
+  margin-top: 18%;
   margin-right: 10%;
   color: white;
   font-size: 48px;
@@ -24,7 +23,11 @@ body {
   padding: 0;
   background-color: #FF8A84;
 }
-
+.welcomeparagraph{
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+}
 /*contact us photos*/
 
 .image-container {
@@ -44,8 +47,8 @@ body {
 }
 
 .caption {
-  margin-top: 5px;
-  font-size: 14px;
+  margin-top: 20px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -130,7 +133,7 @@ button {
   object-fit: cover;
   position: absolute;
   z-index: 100;
-  margin-top: -34px;
+  margin-top: -31px;
   margin-left: 20%;
 }
 
@@ -140,7 +143,7 @@ button {
 }
 
 .colored-rectangle {
-  background-color: #FF8A84;
+  background-color: #FACEC2;
   width: 100%;
   height: 535px;
   position: relative;
@@ -152,7 +155,7 @@ button {
 }
 .heroheart{
   float: right;
-  margin-top: 20%;
+  margin-top: 18%;
   position: absolute;
   margin-left: 91%;
   width: 70px;
@@ -251,7 +254,83 @@ button {
   text-align: center;
   padding: 5%;
 }
+/* Styles for the CTA button */
+#cta-button {
+  background-color: #F4C8B7;
+  color: black;
+  padding: 10px 20px;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+.connect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline-block;
+}
+.letsconnect{
+  text-align: center;
+  margin: 20px;
+}
+#socialmedia{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.icons{
+  width: 50px;
+  margin: 0 20px;
+}
+.icons img{
+  width: 100%;
+}
+.icons-sm{
+  height: 10%;
+  width: 50px;
+  margin: 0 10px 10px;
+}
+.icons-sm img{
+  width: 100%;
+}
+/* Styles for the modal */
+.modal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background overlay */
+}
+
+.modal-content {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 /* Footer */
 .socialmedia{
 display: inline-block;
